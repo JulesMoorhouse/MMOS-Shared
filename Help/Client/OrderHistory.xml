@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Order History (or Enquiry) Screen</page>
+When following the Order Enquiry route this screen will be presented after customer selection.<br/><br/>
+
+The screen shows all the Advice orders notes against the current customer selected, also when you click on and Order (in the top grid) it will show all the corresponding order lines in the order. <br/><br/>
+
+You may modify some order details in the grid, but generally this has been restricted in favour of the 'Modify' button facility that will take the data from the Advice note and put it into the screens used to add the information in the first place.
+<footer/>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Generic Options Screen</page>
+The Options screen is extremely generic and is used in several places through-out the system. Perhaps most commonly in the Order Enquiry screen to modify the Order Status. The screen is used to translate values from a Code which is stored in the database to the Description which is displayed on the screen.
+
+<footer/>
+</html>

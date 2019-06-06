@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Getting Started">
+		<param name="Name" value="Untitled: d:\HelpBuild\MOS\Client\GettingStarted\QuickStart.xml">
+		<param name="Local" value="GettingStarted\QuickStart.xml">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Managing orders">
+		<param name="See Also" value="Managing orders">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Order history">
+			<param name="Name" value="Untitled: d:\HelpBuild\MOS\Client\OrderHistory.xml">
+			<param name="Local" value="OrderHistory.xml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Order maintenance">
+			<param name="Name" value="Untitled: d:\HelpBuild\MOS\Client\OrderMaintenance.xml">
+			<param name="Local" value="OrderMaintenance.xml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Order discrepancies">
+			<param name="Name" value="Untitled: d:\HelpBuild\MOS\Client\Finance.xml">
+			<param name="Local" value="Finance.xml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Packing orders">
+			<param name="Name" value="Untitled: d:\HelpBuild\MOS\Client\Packing.xml">
+			<param name="Local" value="Packing.xml">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Placing an order">
+		<param name="See Also" value="Placing an order">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Creating a customer">
+			<param name="Name" value="Untitled: d:\HelpBuild\MOS\Client\CustAcctSel.xml">
+			<param name="Local" value="CustAcctSel.xml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Customer details">
+			<param name="Name" value="Untitled: d:\HelpBuild\MOS\Client\Account.xml">
+			<param name="Local" value="Account.xml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Order totals">
+			<param name="Name" value="Untitled: d:\HelpBuild\MOS\Client\Orders.xml">
+			<param name="Local" value="Orders.xml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Product selection">
+			<param name="Name" value="Untitled: d:\HelpBuild\MOS\Client\ChildProducts.xml">
+			<param name="Local" value="ChildProducts.xml">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

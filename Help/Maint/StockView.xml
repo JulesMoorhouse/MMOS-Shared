@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+
+<page>Stock View</page>
+
+Under Construction!
+
+
+
+<u><font size="3">Stock Data</font></u><br/>
+<u>3. Download BPCS</u><br/>
+This feature is specific to Traidcraft, it allows the download of data from another system into a temporary table for use the Update Stock feature..<br/><br/>
+
+<u>4. Update Stock</u><br/>
+Similarly, this feature is specific to Traidcraft, it allows the import of data into the Central TMOS database.<br/>
+Only users with user level of 50 (General manger) or more will be able to use the Update Stock button.<br/>
+
+The import takes data created by the Download BPCS function and imports into the products table.<br/>
+To update stock on local PC's, users must simple close TMOS and go back in, this will download the new stock information to the local database.<br/><br/>
+
+The button sparks off several SQL query's (all SQL is held in the executable).  The TMOS Central database is located in \\SERVER\MMOS\Central.mdb.  Firstly, the contents of "ProductsMaster" are deleted.  A straight forward Append query is used copy the information from the linked table "MAIL ORDER ITEM MASTER" into "ProductsMaster".  Then a query to update the price to Unit price (e.g. without VAT where flagged as TaxCode (S)tandard.  Another Query is also used to add the ClassItem and ClassGroup.  Finally a Time Stamp is updated in the "System" table, so that when the TMOS checks this date it will be able to inform users that new stock is available.<br/><br/>
+
+
+<u>5. Export Stock</u><br/>
+The export stock feature allows data to be exported into another system. The feature produces an output file, updates the order status, creates a stock batch number and creates a stock batch report for finance staff.<br/><br/>
+
+
+<footer/>
+</html>

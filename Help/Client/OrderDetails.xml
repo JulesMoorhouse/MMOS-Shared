@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>The Order Details Screen</page>
+
+The majority of fields (A 'Field' is a general computing term mean value or item.  Fields are part of a collection which held together in same theme or category.) on the 'Order Details' screen use drop down lists, which give the user possible alternatives to choose from. Some of the fields are mandatory.<br/><br/>
+
+For example if you enter a payment type credit card, you must enter a credit card number. Similarly if you enter a credit card number you must enter a payment type of credit card.<br/><br/>
+
+Some of these fields like payment type and overseas flag have an effect on the way the program behaves, on the Order screen and in the processing of the order at the end of the Order Entry route.
+<footer/>
+</html>

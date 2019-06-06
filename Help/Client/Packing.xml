@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Packing Screen</page>
+The packing screen is another important screen, which serves dual purposes.<br/><br/>
+
+Firstly, it allow packers (staff whose job it is to put products in boxes and down date stock) to enter any discrepancies (e.g. change the dispatch quantity if an item is out of stock) in the order. Once any discrepancies have been recorded the user would use the 'Confirm' button to signify that the order has been packed and has left the building / waiting to be picked up by the courier.<br/><br/>
+
+Secondly, the confirm button is used to work out any modification to the order totals which may be required. This could included a change to a credit card payment or the creation of a refund request in the cash book. This process all happens behind the scenes. <br/><br/>
+
+Upon selection of an Order the user will be informed of the order status is someone has already confirmed the order, if this is the case the user will not be allowed to modify the dispatch quantity or the order status.
+<footer/>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Order Screen</page>
+The 'Order screen' allows selection of products via the products screen and works out the order totals from the order amounts.<br/><br/>
+
+Once products have been selected the user can then alter quantities (already specified in the products screen) and prices to customise the order.<br/><br/>
+
+On this screen the user will also enter any donations (depending on system set-up). At the end of an Order the order status will be set to 'A' Awaiting Packing, if you wish to cancel the order, this must be done from 'Order Enquiry' by setting the Order Status to 'X'.<br/><br/>
+
+You may also add any under payment from a previous order.  If you do this, you must delete the under payment from the cash book (or finance) screen, so the customer doesn't get charged next time.  This may be something you should discuss with the customer.
+<footer/>
+</html>

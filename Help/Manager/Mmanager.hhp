@@ -1,0 +1,38 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=Mmanager.chm
+Contents file=Table of Contents.hhc
+Default Window=Main
+Default topic=Splash.xml
+Display compile progress=Yes
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x809 English (United Kingdom)
+Title=Mindwarp Mail Order Help System
+
+[WINDOWS]
+WhatsScreen="Whats does this screen do?",,,,,,,,,,,0x0,[150,200,700,500],0x400000,0x20000,,,,,0
+Main=,"Table of Contents.hhc","Index.hhk","Splash.xml",,,,,,0x21520,,0x3e,[184,143,884,613],,,,,,,0
+
+
+[FILES]
+ChLabLay.xml
+Duplicates.xml
+GenReps.xml
+PForce.xml
+Summary.xml
+Splash.xml
+Agree.htm
+lib\mmos.xsl
+mcl.gif
+
+[MAP]
+#include ctxhelp.h
+
+[TEXT POPUPS]
+textpopups.txt
+ctxhelp.h
+
+[INFOTYPES]
+

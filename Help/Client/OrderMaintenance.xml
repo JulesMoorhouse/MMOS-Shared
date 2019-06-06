@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Order Maintenance Screen</page>
+The 'Order maintenance' and discrepancies screen is used to handle unusual orders, orders which require investigation.<br/><br/>
+
+
+The most import feature about the screen is the 'Refund Button', which allows a user to place a refund for a specific order. This is done automatically by creating a refund advice note, the user would select the products from the original order and choose payment type. The request will then be added ready for cheque printing or credit card refund. These later two features are only available in the full version.<br/><br/>
+
+The following topics will be of interest :-<br/><br/>
+<a href="SysPolicy.xml">System Policy</a><br/>
+<a href="Discreps.xml">Discrepancies</a><br/>
+<a href="CalcRefund.xml">Calculate Refund diagram</a>
+<footer/>
+</html>

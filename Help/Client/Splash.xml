@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<bgntitle>Welcome to MMOS Help</bgntitle>
+
+<postable pad="10" space="10"><row>
+<left>
+		<caps size="6"><b>M</b></caps>
+		<caps size="5">INDWARP</caps><br/>
+		<caps size="6"><b>M</b></caps>
+		<caps size="5">AIL</caps><br/>
+		<caps size="6"><b>O</b></caps>
+		<caps size="5">RDER</caps><br/>
+		<caps size="6"><b>S</b></caps>
+		<caps size="5">YSTEM</caps><br/>		
+	<br/>
+	
+
+	
+	"This help file has been provided<br/>
+	to guide you through the system <br/>
+	and answer your questions."
+</left>
+<right>
+<image><src>mcl.gif</src><width>170</width><height>165</height></image>
+<img src="mcl.gif"/>
+</right>
+</row>
+</postable>
+	<br/><lite>
+	Please take time to go through the getting started section and setup things to suite your company and staff.<br/><br/></lite>
+	<B><smalltext>
+Using this program constitutes acceptance of the <a href="Agree.htm">license terms and conditions</a>.<br/>
+Copyright Mindwarp Consultancy 2002©All rights reserved. 
+</smalltext></B>
+	
+</html>

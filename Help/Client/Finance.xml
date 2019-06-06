@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Finance screen</page>
+The 'Finance Screen' should be regard as a sort of cash book (its referred to as such through-out the help file). A place were monies relating to orders can be shown.<br/><br/>
+
+The data shown in the cash book comes from cheques and credit card payments for normal orders and again for refund orders.  There is also a section shown under payments, monies the customer owes your company.<br/><br/>
+
+Another point worth mentioning, is when an order total comes to more than the customer has permitted you to take from his/her credit card.  This will generate an Under payment, as it is unreasonable to take money without consent.  This will likely happen only for orders received through the post.<br/><br/>
+
+The most complicated area, is that of Refunds.  Refunds can be generated when the order is packed / confirmed or when a customer returns good.<br/><br/>
+
+For more Information about <a href="Discreps.xml">discrepancies</a> or the <a href="CalcRefund.xml">Calculate Refund process diagram</a>.
+
+<footer/>
+</html>

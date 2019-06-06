@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Products Screen</page>
+You can search for products using various criterion. Once a product is found it must be both selected (and have a default quantity of 1) and have a quantity entered or (the quicker option) just enter the quantity.
+<br/><br/>
+
+Please note the amount in stock, if this value is 5 or less you will not be allowed to choose the product.
+<br/><br/>
+
+Products are shown in the order that they we added to the order, this has been termed as the Order line Number. This ordering is also shown on the Advice note.
+<footer/>
+</html>

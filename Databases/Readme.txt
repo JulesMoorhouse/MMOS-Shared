@@ -1,0 +1,1 @@
+For testing purposes you can put the client exe files in this folder and use it as the server path.

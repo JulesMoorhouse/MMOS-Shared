@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+
+<page>Upgrade</page>
+
+Under Construction!
+
+
+
+The upgrade screen is a feature which allows the system to be upgraded in a safe and easy manner, at the convenience of staff on site.<br/>
+From time to time update may be requested or made available.  If the former is true then the Test Environment maybe used to ensure that the changes are correct.<br/><br/>
+
+An update will typically consist of new programs, a database structure update file or/and some extra windows files.  These files will be sent in a Zip archive file and will be read into the system.  The system will then read the file and decide what need to be done, or asks the user what they wish do.<br/><br/>
+
+However this screen isn't reliant on an update file, it has other uses.<br/><br/>
+
+
+<u>Load an Update File</u><br/>
+As mentioned above, a zip file will be received by the client, who will click Browse and select the zip file.<br/>
+Then depending of what the update file contains one of the following this will happen.<br/>
+1. If the file contains program files, the user will be asked whether they wish to copy the files to the test Environment.  This is a completely safe thing to do.<br/>
+2. If the file contains a database update file, this specific updates will be listed in the Database updates section (see below).<br/>
+3. If the file contains Windows files then the user will be asked whether they wish to copy these files into the test Environment.  This again is a safe thing to do.<br/>
+4. Finally, if the file contains a message file, then this will be displayed in notepad at the end of this load process.<br/><br/>
+Of course this will only be possible if an update file is available.<br/><br/>
+
+<u>Program Deployment</u><br/>
+This feature enables program file to be copied from the Test Environment to the Live Environment.<br/>
+Also, enables program files to be copied from the Old Area to the Live Environment, this is done by using the Revert button.<br/><br/>
+
+In each case, click on a program in the list, then if the file can be Upgraded or Reverted, the button will be enabled.<br/><br/>
+
+<u>Support File Deployment</u><br/>
+Similarly, this feature allows windows files to be copied from the Test Environment to the Live Environment.<br/>
+This feature is independent of test environment, once a PC has been used in the test Environment.<br/><br/>
+
+To clarify, once a program has been run in the test Environment and new support files where available, they will be automatically installed on to that PC.<br/>  It is impossible to have another Windows directory just for testing purposes.<br/><br/>
+
+<u>Database updates</u><br/>
+This feature is dependant on a database update file being found in a the zip archive file.<br/>
+An item listed on the database updates list box could be a query to add a new field to a table.<br/>
+
+<footer/>
+</html>

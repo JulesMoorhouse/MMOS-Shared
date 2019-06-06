@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Customer Account Selection</page>
+
+There are several features on the account screen. When you first start using the system, you will not have customers numbers but you can search by surname or post code.<br/><br/>
+
+Customer numbers are the quickest and easiest way to access customers' details.  Therefore, we strongly recommend that you make efforts to provide customer numbers to your customers (perhaps on order forms).
+<br/><br/>
+
+To create a new account, simply click on 'Add New' and you will be prompted. It is assumed that any searches done prior to creating a new account have come up blank.
+
+<footer/>
+</html>

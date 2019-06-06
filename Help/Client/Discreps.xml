@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Discrepancies</page>
+Discrepancies is an area which covers refunds and underpayments.<br/><br/>
+
+The Finance screen or (cash book) has been developed to handle much of this area.  For more basic information please see the <a href="Finance.xml">Finance or cash book</a> screen.<br/><br/>
+
+UK legislation dictates that when a company receives payment by credit card, any refund or reimbursement must be made by credit card.  Similarly if payment is made by cheque (or postal order, cash) then reimbursement must be made by cheque, this however may differ in shops (obviously in shops cash can be given over the counter, whereas is it not safe to send cash in the post).<br/><br/>
+
+We shall talk through all the possible discrepancies, how the system handles each scenario and what the user must do to process them.  This shall be done in brief points rather than in paragraphs.<br/><br/>
+
+The refund cheque and credit card print process are only available with the full version.<br/><br/>
+
+<b><u>SCENARIO 1.</u></b><br/>
+Company receives a mail order form through the post with a cheque payment.  Some products are not in stock.<br/>
+<b>BEHIND THE SCENES:</b><br/>
+Update order totals to reflect change in order.<br/>
+Add a refund request marked 'OVERPAY'.<br/>
+Update order Status to 'B' for Confirmed with items out of stock.
+<br/>
+<b>USER ACTION REQUIREMENT:</b><br/>
+Enter Order, pack and Confirm.<br/>
+Run Refund Cheque printout.<br/>
+Run Refund Cheque Advice Note printout.
+<br/><br/>
+
+<b><u>SCENARIO 2.</u></b><br/>
+Company receives mail order form through the post with a cheque payment.  All products are not of stock.<br/>
+<b>BEHIND THE SCENES:</b><br/>
+Update order totals to reflect change in order.<br/>
+Add a refund request marked 'REFUND'.<br/>
+Update order Status to 'R' for Cancelled with all items out of stock.
+<br/>
+<b>USER ACTION REQUIREMENT:</b><br/>
+Enter Order, pack and Confirm.<br/>
+Print off Specific Advice note for order.
+<br/><br/>
+
+<b><u>SCENARIO 3.</u></b><br/>
+Company receives mail order form through the post with a cheque payment.  The order amount exceeds the cheque payment.<br/>
+<b>BEHIND THE SCENES:</b><br/>
+Update order totals to reflect change in order.<br/>
+Add an underpayment note to the system marked 'UNDERPAY'.<br/>
+Update order Status to 'B' for Confirmed with items out of stock.<br/>
+This amount is kept in the system and added to next order, unless big amount.
+<br/>
+<b>USER ACTION REQUIREMENT:</b><br/>
+Enter Order, pack and Confirm.<br/>
+None thereafter.
+<br/><br/>
+
+<b><u>SCENARIO 4.</u></b><br/>
+Company receives mail order form through the post with a credit card payment.  Some products are not in stock.<br/>
+<b>BEHIND THE SCENES:</b><br/>
+Update order totals and payment amount to reflect change in order.<br/>
+Update order Status to 'B' for Confirmed with items out of stock.
+<br/>
+<b>USER ACTION REQUIREMENT:</b><br/>
+Enter Order, pack and Confirm.<br/>
+None thereafter.
+<br/><br/>
+
+<b><u>SCENARIO 5.</u></b><br/>
+Company receives mail order form through the post with a credit card payment.  All products are out of stock.<br/>
+<b>BEHIND THE SCENES:</b><br/>
+Update order totals and payment amount to reflect change in order.<br/>
+Update order Status to 'R' for Cancelled with all items out of stock.
+<br/>
+<b>USER ACTION REQUIREMENT:</b><br/>
+Enter Order, pack and Confirm.<br/>
+Print off Specific Advice note for order showing the order has not been possible.
+<br/><br/>
+
+<b><u>SCENARIO 6.</u></b><br/>
+Company receives mail order form through the post with a credit card payment and a cheque payment.  Some products are not in stock.<br/>
+<b>BEHIND THE SCENES:</b><br/>
+Update order totals and payment amount to reflect change in order.<br/>
+Add a refund request marked 'OUTOFSTOCK'.<br/>
+Update order Status to 'B' for Confirmed with items out of stock.
+<br/>
+<b>USER ACTION REQUIREMENT:</b><br/>
+Enter Order, pack and Confirm.<br/>
+Run Refund Cheque printout.<br/>
+Run Refund Cheque Advice Note printout.
+<br/><br/>
+
+<b><u>SCENARIO 7.</u></b><br/>
+Company receives mail order form through the post with a credit card payment and a cheque payment.  All products are out of stock.<br/>
+<b>BEHIND THE SCENES:</b><br/>
+Update order totals and payment amount to reflect change in order.<br/>
+Add a refund request marked 'STOCKOUT'.<br/>
+Update order Status to 'R' for Cancelled with all items out of stock.
+<br/>
+<b>USER ACTION REQUIREMENT:</b><br/>
+Enter Order, pack and Confirm.<br/>
+Run Refund Cheque printout.<br/>
+Run Refund Cheque Advice Note printout.
+<br/><br/>
+
+For more information on Credit Card Underpayments see <a href="SysPolicy.xml">System Policy</a>.<br/><br/>
+
+Please refer the <a href="CalcRefund.xml">calculate refund diagram</a> for more information.
+
+<footer/>
+</html>

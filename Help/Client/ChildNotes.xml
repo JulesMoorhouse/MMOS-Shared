@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Notes Screen</page>
+Similar to the 'Options' screen, the notes screen is a generic screen which is used for Consignment notes and for customer notes.<br/><br/>
+
+Consignment notes are specific notes against the order which appear on the Advice note.<br/><br/>
+
+The Customer Notepad are where internal notes specific to the customer can be added. These notes can be viewed through-out the Order Entry process and in some order managment screens.
+<footer/>
+</html>

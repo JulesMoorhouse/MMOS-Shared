@@ -1,0 +1,168 @@
+.topic IDH_LABLAY_MAIN
+The 'Label Layouts' screen allows you to setup hows labels will be printed on specific label paper.
+
+.topic IDH_LABLAY_LABTYPE
+There are some layouts which have already been designed.  Please choose one.
+
+.topic IDH_LABLAY_LABSACROSS
+The number of labels across the label paper.
+
+.topic IDH_LABLAY_LADSDOWN
+The number of labels down the label paper.
+
+.topic IDH_LABLAY_LINESBETW
+The number of lines of text gap between labels.
+
+.topic IDH_LABLAY_CHARSLEFTORI
+The number of characters (or letters) between labels.
+
+.topic IDH_LABLAY_TOPMARG
+The number of lines gap at the top of the pape.
+
+.topic IDH_LABLAY_LEFTMARG
+The number of characters (or letters) on the left before the labels.
+
+.topic IDH_REFDATA_MAIN
+The 'Reference Data' screen holds links to all the the reference infomation which can be chnaged within the system.
+
+.topic IDH_STOCKVIEW_MAIN
+The 'Stock View' screen allows the logistics manager or senior administrator to manage the products which customers can sold through the system.
+
+.topic IDH_STOCKVIEW_GRIDPRODS
+This grid shows product details.  You may add (click in the bottom row, next to the asterix, and start typing), delete (highlight a row and press delete) or modify products from here.
+
+.topic IDH_STOCKVIEW_UPDATESTOCK
+Used to import products from an external source.
+
+.topic IDH_STOCKVIEW_EXPORTSTOCK
+Used to export stock to an external database.
+
+.topic IDH_STOCKVIEW_UPDATESUBSTS
+Used to import and update product substitutions.
+
+.topic IDH_SYSOPS_MAIN
+The 'System Options' screen is used to handle essitial system options.
+
+.topic IDH_SYSOPS_UNLOCK
+This feature will allows you to enter a new unlock code provided by Mindwarp Consultancy Ltd.
+
+.topic IDH_UPGRADE_MAIN
+The 'Upgrade' Screen is used to allow  clients to update theirs systems.  It is also a key feature when using the testing environment.
+
+.topic IDH_UPGRADE_ZIPFILE
+You must type of use the 'Browse' button to enter the file name of the update file.
+
+.topic IDH_UPGRADE_BROWSE
+Used to select an update file.
+
+.topic IDH_UPGRADE_TESTPROGS
+A list of all the system programs, the two buttons on the right will enable or disable, when available.
+
+.topic IDH_UPGRADE_UPGRADE
+When enabled, will allow newer programs in the test area to be copied into the live area.
+
+.topic IDH_UPGRADE_REDEPLOY
+When specifically authorised (by Mindwarp Consultancy Ltd) you may be told to use this button. This will update the file time stamp and then copy the file.
+
+.topic IDH_UPGRADE_OLDPROGS
+A list of files in the backup directory.  The last newest file.
+
+.topic IDH_UPGRADE_REVERT
+When specifically authorised (by Mindwarp Consultancy Ltd) you may be told to use this button.  The revert button will update the file time stamp and then copy an older file.
+
+.topic IDH_UPGRADE_USERS
+A list of all the users currently logged into the system.
+
+.topic IDH_UPGRADE_REFRESH
+Will refresh the user list of logged in user.
+
+.topic IDH_UPGRADE_COMPACT
+Will compact the system database and refresh all databases indexes.  This should be used regularly to ensure maximum database performance.
+
+.topic IDH_UPGRADE_DBCHECK
+Used to check the database stucture against the required database structure for the latest system requirements.
+
+.topic IDH_UPGRADE_DEPLSUPPS
+Used to copy windows library files from the test area to the live area.
+
+.topic IDH_USERS_MAIN
+
+.topic IDH_USERS_GRIDUSERS
+
+.topic IDH_USERS_NEWPASS
+
+.topic IDH_USERS_CONFPASS
+
+.topic IDH_USERS_CHANGEPASS
+
+'Reps
+'.topic IDH_CHILABOPS_MAIN
+
+.topic IDH_CHILABOPS_LABTYPE
+
+.topic IDH_CHILABOPS_LABSACROSS
+
+.topic IDH_CHILABOPS_LADSDOWN
+
+.topic IDH_CHILABOPS_LINESBETW
+
+.topic IDH_CHILABOPS_CHARSLEFTORI
+
+.topic IDH_CHILABOPS_TOPMARG
+
+.topic IDH_CHILABOPS_LEFTMARG
+
+.topic IDH_DEDUPE_MAIN
+
+.topic IDH_DEDUPE_SEACRIT
+
+.topic IDH_DEDUPE_SEATYPE
+
+.topic IDH_DEDUPE_GRIDDUPS
+
+.topic IDH_DEDUPE_MERGE
+
+.topic IDH_DEDUPE_CLEAR
+
+.topic IDH_PFORCE_MAIN
+
+.topic IDH_PFORCE_SEATCRIT
+
+.topic IDH_PFORCE_GRIDCONS
+
+.topic IDH_PFORCE_REPRINT
+
+.topic IDH_PFORCE_CREATEEFILE
+
+.topic IDH_PFORCE_PRINTMANI
+
+.topic IDH_PFORCE_DUMP
+
+.topic IDH_PFORCE_PRINTTHERM
+
+.topic IDH_GENREPS_MAIN
+
+.topic IDH_GENREPS_STARTDATE
+
+.topic IDH_GENREPS_ENDDATE
+
+.topic IDH_GENREPS_RANGEORDSTART
+
+.topic IDH_GENREPS_RANGEORDCMDSTART
+
+.topic IDH_GENREPS_RANDEORDEND
+
+.topic IDH_GENREPS_RANGEORDCMDEND
+
+.topic IDH_GENREPS_REPSTABS
+
+.topic IDH_GENREPS_REPLIST
+
+.topic IDH_GENREPS_CMDSELECT
+
+.topic IDH_GENREPS_OUTPUT
+
+.topic IDH_GENREPS_PRINTSET
+
+.topic IDH_SUMRY_MAIN
+

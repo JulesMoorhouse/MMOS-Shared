@@ -1,0 +1,479 @@
+.topic IDH_STANDARD_HELP
+The Help button opens the help pages for the particular screen from which it was pressed.  As well as being an aid to the user, the help pages also go into technical detail, aiding in problem solving e.g. User error.  Also, system policy and other useful information can be accessed from the help pages.
+
+.topic IDH_STANDARD_BACK
+Allows the user to go back to the previous screen.
+
+.topic IDH_STANDARD_PREVIOUS
+Allows the user to return to the previous screen. This is often the only way forward, after a selection / process has been made / carried out.
+
+.topic IDH_STANDARD_ABORT
+Allows the user to quit the current order, without saving any details (including customer) and return to the main menu screen.
+
+.topic IDH_STANDARD_NEXT
+Allows the user to go forward to the next screen.
+
+.topic IDH_STANDARD_CUNOTES
+Allows the user to access the customer notepad screen.  If there are any existing notes then they will appear from previous data entry.  This note is available to every account and therefore there can be only one entry per customer account.
+
+.topic IDH_STANDARD_CONSNOTE
+The consignment note is a short line of text which will appears on the advice note.
+
+.topic IDH_STANDARD_FIND
+Following the selection of the type of search (where available) to be carried out, the system will allow a key word or reference number to be used to find a matching record.  The details within the record are then displayed within the screen.
+
+.topic IDH_STANDARD_VWADNOT
+Allows the selected order to be viewed / printed as an advice note.
+
+.topic IDH_STANDARD_LBLGRITOTFOUND
+The total amount of records shown in the grid above.
+
+.topic IDH_STANDARD_SEARCHBY
+You may change the selection criteria here.
+
+.topic IDH_STANDARD_CHICASHBOOK
+The 'Cash Book' can be viewed from this screen to check for any out standing monies.  This option will also be used in conjunction with the 'Add Underpayment' feature.  Using the screen in this route through the system will automatically show records for this specific customer.
+
+.topic IDH_CAS_MAIN
+The 'Customer Account Selection' screen allows selection of customers via different criteria.  Also, new customer account records can be added.
+
+.topic IDH_CAS_ADDNEW
+This feature basically allows the addition of a new record.  Normally when the user doesn't find a matching record an empty list would be presented, then by clicking 'Select' a new record could be added.  This feature allows for the case where matches are found but are not suitable.
+
+.topic IDH_CAS_SELECT
+Once a suitable record has been found the user can select the record from the list (by clicking on it) then by pressing select will move forward to the next screen.  If a search only produces one record, it will be automatically selected and the user will be asked if they wish to proceed.  If clicked without making a search a new record will be created.
+
+.topic IDH_CAS_TXTCNUM
+Allows you to enter a customer number that the customer will have provided.  This is generally prefixed by 'M' e.g. M3810.  Although 'M' is not required. Only one search result will be displayed from a customer number search.
+
+.topic IDH_CAS_TXTSURN
+Enter a customer surname for a 'fuzzy' search.
+
+.topic IDH_CAS_TXTPOST
+Full or part post codes can be entered.
+
+.topic IDH_CAS_LSTACCT
+This is where the results of your search will be shown.
+
+.topic IDH_CAS_FIND
+Once you have entered something to search upon in the text box above this button, the search will be processed and results will be shown in the box on the right.
+
+.topic IDH_ACCT_MAIN
+Here customer account details can be entered.  Notice this screen is used several times within the system.  The difference depends on the route selected and where the data for the account, advice note or both is modified / added.
+
+.topic IDH_ACCT_COPY
+Allows the callers' name to be copied to the delivery name.
+
+.topic IDH_ACCT_COPYALL
+Allows the main address to be copied into the delivery address.
+
+.topic IDH_ACCT_SALU
+The customers salutation (Mr, Mrs, Ms, Miss, Dr, HRH etc).
+
+.topic IDH_ACCT_DEL_SALU
+The salutation (Mr, Mrs, Ms, Miss, Dr, HRH etc) of the person whom will receive the mail order package.  In most cases this will be the same as customer salutation.
+
+.topic IDH_ACCT_FIRST
+The customers first name.
+
+.topic IDH_ACCT_DEL_FIRST
+The first name of the person whom will receive the mail order package.  In most cases this will be the same as customer first name.
+
+.topic IDH_ACCT_SURN
+The customers surname.
+
+.topic IDH_ACCT_DEL_SURN
+The surname of the person whom will receive the mail order package.  In most cases this will be the same as customer surname.
+
+.topic IDH_ACCT_ADDR
+The customers address.
+
+.topic IDH_ACCT_DEL_ADDR
+The address of the person whom will receive the mail order package.  In most cases this will be the same as customer address.
+
+.topic IDH_ACCT_POSTC
+The customers post code.
+
+.topic IDH_ACCT_DEL_POSTC
+The post code of the person whom will receive the mail order package.  In most cases this will be the same as customer post code.
+
+.topic IDH_ACCT_TEL
+The customers daytime telephone number.
+
+.topic IDH_ACCT_EVETEL
+The customers evening telephone number.
+
+.topic IDH_ACCT_ACCTTYPE
+The account type will generally be determined by the overall source of account (depending on system set-up).
+
+.topic IDH_ACCT_ACTSTAT
+The account status will typically indicate whether the customer wishes to be included in future mailing lists, also where the customer has deceased.
+
+.topic IDH_ACCT_EMAIL
+The customers e-mail address.
+
+.topic IDH_ORDDETS_MAIN
+Order details are only ever held with the advice note record.  Certain restrictions are made depending on the data entered / selected here.
+
+.topic IDH_ORDDETS_ORDSTY
+Order type (or style) can be either 'Regular order' or 'Replacement, No charge', the later is used when a customer returns an order, due to damage or fault.
+
+.topic IDH_ORDDETS_MEDIA
+The Media code (is most likely to be modified by the client) generally refers to the place where the customer saw the products they are ordering.  For example this could be last months catalogue or a newspaper.
+
+.topic IDH_ORDDETS_DELDATE
+The delivery date should be used to specify when the customer would like delivery to be made. You can use the 'Insert' key to bring up the calendar screen to enter this date.
+
+.topic IDH_ORDDETS_COURIER
+The postage service can be chosen from here, this will have an impact of postage cost (depending on system set-up).
+
+.topic IDH_ORDDETS_PAYTY1
+The first (or only) payment method.  If 'Credit Card' is selected, you will be forced to enter certain card details. Vouchers would be something that your company would issue as part of a promotion or credit.
+
+.topic IDH_ORDDETS_PAYTY2
+The second payment method.  If 'Credit Card' is selected, you will be forced to enter certain card details. Vouchers would be something that your company would issue as part of a promotion or credit.
+
+.topic IDH_ORDDETS_CCNUM
+The credit card number is the long number that all credit cards have.
+
+.topic IDH_ORDDETS_EXPMONTH
+The expiration month is shown on all credit cards and should not be confused with the 'Valid From' date shown on some card.
+
+.topic IDH_ORDDETS_EXPYEAR
+The expiration year is shown on all credit cards and should not be confused with the 'Valid From' date shown on some card.
+
+.topic IDH_ORDDETS_CARDNAME
+Ensure that you have the exact card name, the name added by default is based on the customer name already provided.
+
+.topic IDH_ORDDETS_CARDTYPE
+The card type will be shown on all cards.
+
+.topic IDH_ORDDETS_CARDISS
+Issue number is only applicable to 'Switch' or 'Solo' credit cards.
+
+.topic IDH_ORDDETS_VALMONTH
+Valid month is only shown on some cards.
+
+.topic IDH_ORDDETS_VALYEAR
+Valid year is only shown on some cards.
+
+.topic IDH_ORDDETS_ORDCODE
+Order code is determined by how you started placing the order, by phone call, or from an order form, by post or fax.
+
+.topic IDH_ORDDETS_OVERSEAS
+The 'Over Seas' check box is used to charge no VAT on an order, this is used form B.F.P.O. customers etc.
+
+.topic IDH_ORDER_MAIN
+The final screen in the order process.  Therefore labour saving features are used to wrap up the order quickly and correctly.
+
+.topic IDH_ORDER_ADDPRODS
+Allows products to be added to the order.  A selection screen will be shown.
+
+.topic IDH_ORDER_REFRESH
+This feature will be used on rare occasions, if the user alters the products in the grid, this feature will update the totals etc.
+
+.topic IDH_ORDER_POSTAGE
+By default postage is always charged on orders below the Waiver level, this feature will allow either postage to be manually wavered or a different postage value to be set. Simply keep clicking the button until the right option is shown. 'Alt' mean alternative (which allows you to type in a postage cost), 'In' means including postage and 'Ex' mean excluding postage.
+
+.topic IDH_ORDER_UNDERPAY
+When an underpayment amount is shown is red, this option is used to add an underpayment product to the order, the amount will be manually entered. The user must then alter the 'Cash Book' (or Finance Screen) entry so that user isn't charged twice.
+
+.topic IDH_ORDER_GRIDOL
+This grid shows the products you have (or are about to) add to the order.
+
+.topic IDH_ORDER_PAY1
+The text box is used to allow you to enter the amount of the first (or only) payment accompanying the order.  When the payment method is credit card, this amount is generated, when it's a cheque or voucher, these amounts cannot be changed.
+
+.topic IDH_ORDER_PAY2
+The text box is used to allow you to enter the amount of the second payment accompanying the order.  When the payment method is credit card, this amount is generated, when it's a cheque or voucher, these amounts cannot be changed.
+
+.topic IDH_ORDER_LBTOTPAY
+This shows the total payment accompanying the order.
+
+.topic IDH_ORDER_VAT
+Value added tax, this is calculated upon what has been ordered.
+
+.topic IDH_ORDER_LBLORDTOT
+This is a sort of sob order total, based on products selected and VAT.
+
+.topic IDH_ORDER_TXTPOST
+This shows the postage cost, this can be changed by using the button on the right.  When postage is included the value is determined by the postage service selected on the previous screen.
+
+.topic IDH_ORDER_TOTINCVAT
+This shows the order total including VAT and any additional amounts added on this screen.
+
+.topic IDH_ORDER_DONAT
+This amount is the donation the customer has requested be added to the order total.
+
+.topic IDH_ORDER_RECON
+'Reconciliation' is any over payment on the order.  This will only occur when dealing which payments made by cheque or voucher.
+
+.topic IDH_ORDER_TXTUNDERP
+This shows any amount that the customer owes your company.
+
+.topic IDH_ORDER_LBLCASH
+Once the order has been packed and any order total adjustment has been made (e.g. due to items being out of stock) any underpayment is added to the cash book and is shown here in red.
+
+.topic IDH_CHIGENOPS_LIST
+A list of options where you must make a choice, select one and then click on select.
+
+.topic IDH_CHIPRODS_MAIN
+A sub screen presented from the 'Order' screen.  Notice 'NumInStock', the system will restrict the user from allocating items which aren't in stock as well as allowing items still to be shown on the advice note as zero.
+
+.topic IDH_CHIPRODS_GRIDPRODS
+This grid shows the products which match the search criteria you have specified.  To select a product change the column 'Selected' to Yes.  You should also modify the 'Qty' (or Quantity) to the amount the customer requires.
+
+.topic IDH_CHIPRODS_SEARCHCRIT
+You must type something to search for a product, you may also change the selection criteria in the box to the left.
+    
+.topic IDH_ORDHIST_MAIN
+The screen where a customers past orders can be viewed or edited.  Notice that when an order is selected the appropriate products are shown for the order.
+
+.topic IDH_ORDHIST_MODIFY
+This route will allow modifications to the advice note information (not the account record). You must first select an advice note record from the Customer Order grid (shown above), then click modify.
+
+.topic IDH_ORDHIST_CONSIGNDETSVIEW
+This feature shows all of the consignment details for all of the packages distributed with the selected order.  This fully featured screen is available in the full version of this screen.
+
+.topic IDH_ORDHIST_GRIDADV
+This grid shows all the orders the customer has made in the past. You must select ones of these (by clicking your mouse on a row) to make use of other feature on the screen.
+
+.topic IDH_ORDHIST_GRIDOLM
+Shows all the products within the selected order above.
+
+.topic IDH_FINANCE_MAIN
+Also known as the 'Cash Book' or the 'Finance' screen.  Allows accounts users to keep track of customer account monies. When shown from the 'Order' screen records may be deleted, when placing an underpayment product.
+
+.topic IDH_FINANCE_SEARCHCRIT
+You must enter something to search for a cash book record, you may also change the selection criteria in the box to the left.
+
+.topic IDH_PACKING_MAIN
+Allowing packing staff to alter dispatch quantities (of items that may be out of stock) and confirm the order.
+
+.topic IDH_PACKING_CONFIRM
+One of the most important features of the system.  Once the package has been filled and the amounts of each item are known, they can be entered using this screen.  Then the confirm function recalculates all the order total values based on the said amounts. Any discrepancies (e.g. Refunds) and generated are the order status is set appropriately.
+
+.topic IDH_PACKING_GRIDOLM
+This grid shows the products which the customer has ordered.  To pack this order you must change the 'DespQty' (Dispatch quantity) to reflect the actual items you have packed.  This may be different to the 'Qty' (Ordered Quantity) if an item is out of stock.
+
+.topic IDH_PACKING_SEACRIT
+You must enter the advice note order number for the order you wish to pack. You can see what order are awaiting (Order status 'A') to be packed from the 'Order Maintenance' screen. In the full version of this program this will be shown on the 'Batch Picking list' report.
+
+.topic IDH_ORDMNT_MAIN
+The customer service manager screen, where order can be maintained and discrepancies can be resolved.
+
+.topic IDH_ORDMNT_REFUND
+Another essential feature of any mail order system is the ability to produce refunds.  This feature will create a form of advice note with a refund product for the amount specified.
+
+.topic IDH_ORDMNT_SORTBY
+Enables you to change the sequence the records in the grid are displayed.
+
+.topic IDH_ORDMNT_GRIDADV
+This grid shows the result of your search. To be more specific, it shows the order total information for the advice note records returned from your search criteria.
+
+.topic IDH_ORDMNT_SEARCHCRIT
+You must type something to search for an advice note order, you may also change the selection criteria in the box to the left.
+
+.topic IDH_LABLAY_MAIN
+The 'Label Layouts' screen allows you to setup hows labels will be printed on specific label paper.
+
+.topic IDH_LABLAY_LABTYPE
+There are some layouts which have already been designed.  Please choose one.
+
+.topic IDH_LABLAY_LABSACROSS
+The number of labels across the label paper.
+
+.topic IDH_LABLAY_LADSDOWN
+The number of labels down the label paper.
+
+.topic IDH_LABLAY_LINESBETW
+The number of lines of text gap between labels.
+
+.topic IDH_LABLAY_CHARSLEFTORI
+The number of characters (or letters) between labels.
+
+.topic IDH_LABLAY_TOPMARG
+The number of lines gap at the top of the pape.
+
+.topic IDH_LABLAY_LEFTMARG
+The number of characters (or letters) on the left before the labels.
+
+.topic IDH_REFDATA_MAIN
+The 'Reference Data' screen holds links to all the the reference infomation which can be chnaged within the system.
+
+.topic IDH_STOCKVIEW_MAIN
+The 'Stock View' screen allows the logistics manager or senior administrator to manage the products which customers can sold through the system.
+
+.topic IDH_STOCKVIEW_GRIDPRODS
+This grid shows product details.  You may add (click in the bottom row, next to the asterix, and start typing), delete (highlight a row and press delete) or modify products from here.
+
+.topic IDH_STOCKVIEW_UPDATESTOCK
+Used to import products from an external source.
+
+.topic IDH_STOCKVIEW_EXPORTSTOCK
+Used to export stock to an external database.
+
+.topic IDH_STOCKVIEW_UPDATESUBSTS
+Used to import and update product substitutions.
+
+.topic IDH_SYSOPS_MAIN
+The 'System Options' screen is used to handle essitial system options.
+
+.topic IDH_SYSOPS_UNLOCK
+This feature will allows you to enter a new unlock code provided by Mindwarp Consultancy Ltd.
+
+.topic IDH_UPGRADE_MAIN
+The 'Upgrade' Screen is used to allow  clients to update theirs systems.  It is also a key feature when using the testing environment.
+
+.topic IDH_UPGRADE_ZIPFILE
+You must type of use the 'Browse' button to enter the file name of the update file.
+
+.topic IDH_UPGRADE_BROWSE
+Used to select an update file.
+
+.topic IDH_UPGRADE_TESTPROGS
+A list of all the system programs, the two buttons on the right will enable or disable, when available.
+
+.topic IDH_UPGRADE_UPGRADE
+When enabled, will allow newer programs in the test area to be copied into the live area.
+
+.topic IDH_UPGRADE_REDEPLOY
+When specifically authorised (by Mindwarp Consultancy Ltd) you may be told to use this button. This will update the file time stamp and then copy the file.
+
+.topic IDH_UPGRADE_OLDPROGS
+A list of files in the backup directory.  The last newest file.
+
+.topic IDH_UPGRADE_REVERT
+When specifically authorised (by Mindwarp Consultancy Ltd) you may be told to use this button.  The revert button will update the file time stamp and then copy an older file.
+
+.topic IDH_UPGRADE_USERS
+A list of all the users currently logged into the system.
+
+.topic IDH_UPGRADE_REFRESH
+Will refresh the user list of logged in user.
+
+.topic IDH_UPGRADE_COMPACT
+Will compact the system database and refresh all databases indexes.  This should be used regularly to ensure maximum database performance.
+
+.topic IDH_UPGRADE_DBCHECK
+Used to check the database stucture against the required database structure for the latest system requirements.
+
+.topic IDH_UPGRADE_DEPLSUPPS
+Used to copy windows library files from the test area to the live area.
+
+.topic IDH_USERS_MAIN
+Under Development
+
+.topic IDH_USERS_GRIDUSERS
+Under Development
+
+.topic IDH_USERS_NEWPASS
+Under Development
+
+.topic IDH_USERS_CONFPASS
+Under Development
+
+.topic IDH_USERS_CHANGEPASS
+Under Development
+
+.topic IDH_CHILABOPS_LABTYPE
+Under Development
+
+.topic IDH_CHILABOPS_LABSACROSS
+Under Development
+
+.topic IDH_CHILABOPS_LADSDOWN
+Under Development
+
+.topic IDH_CHILABOPS_LINESBETW
+Under Development
+
+.topic IDH_CHILABOPS_CHARSLEFTORI
+Under Development
+
+.topic IDH_CHILABOPS_TOPMARG
+Under Development
+
+.topic IDH_CHILABOPS_LEFTMARG
+Under Development
+
+.topic IDH_DEDUPE_MAIN
+Under Development
+
+.topic IDH_DEDUPE_SEACRIT
+Under Development
+
+.topic IDH_DEDUPE_SEATYPE
+Under Development
+
+.topic IDH_DEDUPE_GRIDDUPS
+Under Development
+
+.topic IDH_DEDUPE_MERGE
+Under Development
+
+.topic IDH_DEDUPE_CLEAR
+Under Development
+
+.topic IDH_PFORCE_MAIN
+Under Development
+
+.topic IDH_PFORCE_SEATCRIT
+Under Development
+
+.topic IDH_PFORCE_GRIDCONS
+Under Development
+
+.topic IDH_PFORCE_REPRINT
+Under Development
+
+.topic IDH_PFORCE_CREATEEFILE
+Under Development
+
+.topic IDH_PFORCE_PRINTMANI
+Under Development
+
+.topic IDH_PFORCE_DUMP
+Under Development
+
+.topic IDH_PFORCE_PRINTTHERM
+Under Development
+
+.topic IDH_GENREPS_MAIN
+Under Development
+
+.topic IDH_GENREPS_STARTDATE
+Under Development
+
+.topic IDH_GENREPS_ENDDATE
+Under Development
+
+.topic IDH_GENREPS_RANGEORDSTART
+Under Development
+
+.topic IDH_GENREPS_RANGEORDCMDSTART
+Under Development
+
+.topic IDH_GENREPS_RANDEORDEND
+Under Development
+
+.topic IDH_GENREPS_RANGEORDCMDEND
+Under Development
+
+.topic IDH_GENREPS_REPSTABS
+Under Development
+
+.topic IDH_GENREPS_REPLIST
+Under Development
+
+.topic IDH_GENREPS_CMDSELECT
+Under Development
+
+.topic IDH_GENREPS_OUTPUT
+Under Development
+
+.topic IDH_GENREPS_PRINTSET
+Under Development
+
+.topic IDH_SUMRY_MAIN
+Under Development

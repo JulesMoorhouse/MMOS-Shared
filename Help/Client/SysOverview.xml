@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Overview</page>
+On the main screen you are presented with several options which you will be able to select depending on you user level.<br/><br/>
+
+
+We will work through each screen, providing more comprehensive details (please see 'Quick Start' for basic overview!)of what each screen does and where it leads.<br/><br/><br/>
+
+1 - Order Entry<br/><br/>
+
+2 - Order Enquiry<br/><br/>
+
+3 - Account Maintenance<br/><br/>
+
+4 - Finance<br/><br/>
+
+5 - Packing<br/><br/>
+
+6 - Order Maintenance<br/><br/>
+
+Before commentary begins and to avoid confusion, its worth while pointing out that several screen are used more than once for different purposes. For example there are three main routes through the system 'Order Entry', 'Order Enquiry' and 'Account Maintenance', they all start off with the customer selection screen!<br/><br/>
+But, the following screens are different and the system handles information differently.<br/><br/>
+<br/><br/>
+<u>1. Order Entry</u><br/>
+This route is used to place orders.  The <a href="CustAcctSel.xml">'Customer Account Selection'</a> screen  is shown first, allow the user to select an existing customer or to create a new customer account record.
+The <a href="Account.xml">'Account'</a> Screen is shown next, allowing modifications on an existing customers details or entry of new details.<br/>
+Next in the <a href="OrderDetails.xml">'Order Details'</a> screen, payment details are required, then the <a href="Orders.xml">'Order'</a> screen will be displayed. As a sub screen of the 'Order' screen you can select what <a href="ChildProducts.xml">'Products'</a> to be added to the order.<br/><br/>
+
+<I>
+This route will create both an account record containing the customer name, address etc and an advice note record containing the same information and more (this is with the exception of account status information).  The reason for this is that a customers details may change over time, therefore this information will be updated as and when required in the account record.  However, for legal reasons (relating to invoices), the system was designed to allow exact reproductions of advice notes, hence the initial duplication of account details.</I>
+<br/><br/><br/><br/>
+
+<u>2. Order Enquiry or Order History</u><br/>
+The <a href="CustAcctSel.xml">'Customer Account Selection' screen </a> is shown, to allow selection of a customer, obviously you are not permitted to add new customers in this route. The following screen will show all the customers orders and the products for each.  From this screen an order can be modified, by selecting it from the grid then the screens used in order entry are used.<br/><br/>
+
+<I>
+Contuniting from the later paragraph shown in option 'Order Entry'; the amendment of the 'Order' and 'Advice Note' record is possible in 'Order Enquiery'.</I>
+<br/><br/><br/><br/>
+
+
+<u>3. Account Maintenance</u><br/>
+The <a href="CustAcctSel.xml">'Customer Account Selection' screen </a> is shown again, to allow selection of a customer, then the <a href="Account.xml">'Account' screen </a> is shown to allow simple updates to be made on a customers account.<br/><br/>
+<I>
+The 'Account Maintenance' option MUST be used to alter the Account record and should be regarded as the true customer detail reference point.</I>
+<br/><br/><br/><br/>
+
+<u>4. Finance</u><br/>
+The <a href="Finance.xml">'Finance'</a> screen has been described as a cash book.  It shows both Refund cheques and records underpayments details.  The screen is also used in the 'Order' screen to allow discrepancies to be handled at order entry. At this point is may be worth having a look at the <a href="SysPolicy.xml">System Policy</a> document, which shows a typical Company policy which the system had been built around.<br/><br/><br/><br/>
+
+
+<u>5. Packing</u><br/>
+The <a href="Packing.xml">'Packing'</a> screen has been designed for packers on the packing floor to enter dispatch quantities and to confirm orders. At this point without knowing the user will have finalised the order on the system.<br/><br/>
+
+<I>
+The process of packing can be done following two approaches.  Firstly, by packing from an advice note and correcting the note with pen then updating the system; or (the preferred option) by updating the system then printing the advice note.  The later option will also show extra discrepancy details on the note, as appropriate.</I>
+<br/><br/><br/><br/>
+
+<u>6. Order Maintenance</u><br/>
+Discrepancies can be handled using this screen, refunds and general enquires can be dealt with in this screen.<br/><br/>
+
+Please do not worry about this next paragraph, if it doesn't make sense immediately!<br/><br/>
+
+Another point that could be confusing is what information routes 1,2 and 3 are handling.  For legal purposes, Advice notes must be able to be reproduced in the future, therefore as it is possible for a customer address to change over time, addresses are kept with both the customer record and the order record.  So you can modify the customers address without modify old orders.<br/><br/>
+
+As we have seen various screen are used several times, to perform different tasks.
+<footer/>
+</html>
+
+

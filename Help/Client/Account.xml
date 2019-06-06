@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>Account (detail) screen</page>
+
+The 'Account screen' is used to add, modify or query customer details. After entering the customer name you can enter a main address and a delivery address. Depending on the route, you may also be able to choose the account type. Similarly account status can be chosen.<br/><br/>
+
+The screen will force you to select an account type and will perform simple tests to ensure data is correct (e.g. only numbers in the phone number field). This screen has room for two addresses the customer (or billable address) and the delivery address, if left blank the system will automatically copy the customer address into the delivery address.<br/><br/>
+
+Both Account Type and Account Status can also be changed to suite the needs of the client.  This can be done via a configuration screen.
+<footer/>
+</html>
+
+
+
+
+
+

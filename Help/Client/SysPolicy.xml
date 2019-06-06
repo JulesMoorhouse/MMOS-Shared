@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+<page>System Policy Document</page>
+
+<u>1. Stock Threshold (Amount in Stock 5 or less)</u><br/>
+This option has been provided but is turned off by default.<br/>
+When placing an Order and selecting which products to add to the order in the Products Screen, there is a constraint against how many items are in stock.<br/>
+More specifically, when there are 5 or less items in stock, MMOS will not let you order the item.<br/><br/>
+
+The reason is that most companies only do a stock take every few months and discrepancies (e.g. Perishable goods) on the shelves make it safer to place a margin of 5 on certain items.<br/><br/>
+
+
+<a name="User Creation"></a><u>2. User Creation</u><br/>
+When the system was first developed the most common type of user was the order Entry user. Also there needed to be a quick method of setting up new users without having to get the office manager or IT to create a new user account.  Therefore it is possible to login into the system for the first time and create a new user account. The user level is set by default to 'Order Entry'.  So a new user who does not wish to have the 'Order Entry' level this must be change in the Maintenance program.<br/><br/>
+
+
+
+<a name="Credit Card Underpayments"></a><u>3. Credit Card Underpayments</u><br/>
+When an order comes to more than the amount that the customer has agreed to pay on their credit card, the amount is logged in the Finance Screen (or cash book) and is presented against the next order.<br/><br/>
+
+
+<a name="£75"></a><u>4. Special Customer Level</u><br/>
+As a means of credit card security, when an order values exceeds the amount setup (Set to £75 by default), the order is held (this is only done if the user allows this) and has its order status set to 'H'.  Then as a matter of system housekeeping the order entry (or finance manager) manager will frequently check orders of this status using the order maintenance screen.  Then the manager can release or reject the order as appropriate.
+<footer/>
+</html>

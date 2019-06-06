@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="..\lib\mmos.xsl"?>
+<html>
+<page>Quick Start</page>
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Getting Started, Quick start"></param>
+</Object>
+
+ORDER ENTRY<br/>
+Normal use of the system is accessed from Order Entry.  You will first try and find the customer in the system database then select or create the customer.  The selection screen allows selection by various criteria. You can then add information about payments and add products to the order.
+<br/><br/>
+
+ORDER ENQUIRY<br/>
+Following the entry of an order a facility to allow amendments has been provided.  Initially as with order entry the customer selection screen will be shown, then the 'Order History' screen showing all orders, all products within each order and any cash book entries.
+<br/><br/>
+
+ACCOUNT MAINTENANCE<br/>
+As with the first two options the 'Customer Account Selection' screen is shown.  Next the account amendment screen.  Customer details should be maintained from here.
+<br/><br/>
+
+FINANCE<br/>
+This option has been provided to deal with customer cheques etc.  As the system automatically generates discrepancy records when required, the facility to maintain monies was provided.
+<br/><br/>
+
+PACKING<br/>
+To continue in the next logical step after 'Order Entry' the packing screen provides a means where you can modify dispatch quantities (if out of stock). This screen also automatically confirms (after you click the 'Confirm' button) the order and recalculates the order totals if the dispatch quantities are altered.  The process also generates discrepancy records that can be accessed from the 'Cheque' screen.
+<br/><br/>
+
+ORDER MAINTENANCE<br/>
+Various features have been created here to cater for user error and discrepancies.  This screen is aimed at the customer service manager.
+<footer/>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lib\mmos.xsl"?>
+<html>
+
+<page>Reference Data</page>
+
+Under Construction!
+
+Lists (H1012) allow quick changes to be made to the reference information used in TMOS. An example of a list is Media Codes.
+
+This feature is similar to Lists (H1012), System Lists hold information which is vital to the running of the system. A top level user level is required to access this feature. Two extra button are available. Firstly Deploy, this flushed all the information in System Lists into a INI file, for use on the local PCs. Secondly Reset PF, this button allows the Parcel Force Consignment numbers to be Reset. Please see (H1027) for more information about Parcel Force. 8. Upgrade
+A relatively new feature which allows quick and safe upgrades. For a more details see (H1020). Also, this feature works hand in hand with the testing environment (H1028).
+
+
+
+
+
+Lists are primarily used to save space in the database (where information in <% = lstrProdNam %> is kept).  Also, equally important, Lists allow quick changes to be made to the reference information used in <% = lstrProdNam %>.  An example of a list is Media Codes.
+<br/><br/>
+
+Over time lots of information will mount up and from time to time Lists will need to be altered (as requirements change).  For example a list containing seasonal data will need to be changed regularly.
+<br/><br/>
+
+Technically Lists are made up of two components.  A Code and a Description,  the Description is aimed at the user who will choose the description from a list of many descriptions.  The code is stored away in the database, where if called upon the description can be derived.
+<br/><br/>
+
+<u>Reporting vs Data Entry</u><br/>
+Information held in the database is used to produce reports, which also use lists.  Reports generally are produced sometime after the data is originally data entered.  Therefore, using Seasonal list as an example, we may wish to stop an item about Xmas appearing in the summer, but we may wish to report Xmas details.
+<br/><br/>
+
+Therefore a flag (a toggle) is used to stop items appearing in the system, but allowing them to be used in reports.  A natural instinctive thing to want to do is to delete these items but if we do this it will have adverse effects on reports.
+<br/><br/>
+
+<u>On the Screen</u><br/>
+A list has a name and can have many items, on the screen the top grid displays the names of each list (along with an identity number).  If you click on a name, the bottom grid will display the items in the list (which has the same identity number).
+<br/><br/>
+
+IS or the office manager will have to be involved if you would like a new list, as it has to be plumbed into the system.
+<br/><br/>
+
+You can add new items to a list, remember to use the same identity number.  Also there is a column called SequenceNum which is the order in which the items appear on the screen.  In rare cases additional columns UserDef1 and UserD1f2 are used for a specific purpose.<br/><br/>
+
+<u>System Lists</u><br/>
+As well as normal lists available to anyone with 'Sales' level access and above, system lists are also show in the Lists screen.<br/>
+However there are two separate buttons to show the two types of lists.  To add a new System list just set the Sysuse field in the Lists grid to True.<br/><br/>
+
+System lists are aimed at IS staff only as if they are altered incorrectly the whole <% = lstrProdNam %> application will fail with various errors.  Therefore great care must be taken!<br/><br/>
+The 'Deploy' button is used to transmit the information held in the System Lists to an INI file on the Network.  The reason for this is that if you which to modify the location of say the central database then you don't want to the system to look at the database to find this information.  The INI file gets copied to local PC's when the user first opens the <% = lstrProdNam %> application, the values are then checked against previous values stored in the Registry on the PC and if the values are file locations the an 'if file exists' function is called before using the value.  The new values would then be stored in the registry.
+
+<footer/>
+</html>

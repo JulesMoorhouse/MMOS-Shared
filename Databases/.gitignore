@@ -1,4 +1,5 @@
 *.exe
+*.ldb
 Support/
 Static.ldr
 invoice97.mdb

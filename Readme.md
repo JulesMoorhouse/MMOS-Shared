@@ -6,6 +6,8 @@ I've included three help files, the client help file is complete.
 
 However the other two help files aren't finished. I do have some html help pages which need contverting to the chm format, but this would be a manual process.
 
+Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
+
 ## Contributing
 Contributions for bug fixing or improvements are welcomed. Feel free to submit a <a href="https://github.com/JulesMoorhouse/MMOS/pulls">pull request</a>. If you would like to create an <a href="https://github.com/JulesMoorhouse/MMOS/issues">issue</a>, please do so <a href="https://github.com/JulesMoorhouse/MMOS/issues">here</a>.
 
